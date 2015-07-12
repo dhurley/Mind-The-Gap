@@ -23,7 +23,7 @@ public class MenuController : MonoBehaviour
     private int titleFontSize;
     private int buttonFontSize;
 
-    private string[] skins = new string[10];
+    private string[] skins = new string[8];
     private int skinIndex = 0;
 
     void Start()
@@ -183,10 +183,8 @@ public class MenuController : MonoBehaviour
         skins[3] = "Black";
         skins[4] = "Yellow";
         skins[5] = "Materials/BlueishWall";
-        skins[6] = "Carpet 02/Carpet pattern 02";
-        skins[7] = "Carpet 03/Carpet pattern 03";
-        skins[8] = "Carpet 06/Carpet pattern 06";
-        skins[9] = "Rough string 01/Rough string pattern 01";
+        skins[6] = "Carpet 03/Carpet pattern 03";
+        skins[7] = "Rough string 01/Rough string pattern 01";
     }
 
     private void setSavedSkin()
