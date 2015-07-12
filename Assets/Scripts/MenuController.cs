@@ -192,6 +192,7 @@ public class MenuController : MonoBehaviour
         if (!PlayerPrefs.HasKey("skin"))
         {
             PlayerPrefs.SetString("skin", skins[5]);
+            skinIndex = 5;
         }
         else
         {
